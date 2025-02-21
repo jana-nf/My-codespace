@@ -29,12 +29,42 @@
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
-      }
-    }
-  },
-
-  "features": {
+        "emmet.triggerExpansionOnTab": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "true"
+        },
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80,
+        "editor.rulers": [80],
+        "editor.renderWhitespace": "all",
+        "editor.renderControlCharacters": true,
+        "editor.renderIndentGuides": true,
+        "editor.minimap.enabled": false,
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+        "editor.fontLigatures": true, // This is a font-specific setting and may not work with all fonts.
+        "editor.fontSize": 14,
+        "editor.lineHeight": 24,
+        "editor.letterSpacing": 0.5,
+        "editor.cursorBlinking": "solid",
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 2,
+        "editor.cursorSurroundingLines": 3,
+        "editor.cursorSurroundingLinesBackground": {
+          "backgroundColor": "#00000010",
+          "border": "1px solid #00000010"
+        },
+        "editor.cursorSurroundingLinesOpacity": 0.5,
+        "editor.cursorSurroundingLinesStyle": "all"  // This is a font-specific setting and may not work with all fonts.
+              }
+            }
+          }
+        },
+    
+    "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {}
   },
